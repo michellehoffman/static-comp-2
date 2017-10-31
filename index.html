@@ -3,140 +3,183 @@
   <head>
     <link type="text/css" rel="stylesheet" href="./styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Static Comp 2</title>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto+Slab:700');
+</style>
+  <title>Static Comp 2</title>
   </head>
   <body>
     <header>
-      <p class="log-in">Admin Username</p>
+      <div class="log-in">
+        <img src="./svg/002-user.svg" class="nav-icons" id="profile-icon">
+        <p class="username">Admin Username</p>
+        <img src="./svg/002-arrows.svg" class="nav-icons">
+      </div>
       <nav>
         <ul>
-          <li>Shares</li>
-          <li>Playlists</li>
-          <li>Personal Videos</li>
+          <li><img src="./svg/004-share.svg" class="nav-icons">Beta</li>
+          <li><img src="./svg/003-list.svg" class="nav-icons">Tick List</li>
+          <li><img src="./svg/001-user-1.svg" class="nav-icons">Videos</li>
         </ul>
       </nav>
-      <h1>2Win!</h1>
+      <div class="logo">
+        <h1>Tick List</h1>
+        <img src="./svg/snowed-mountains.svg" class="logo-img">
+      </div>
     </header>
-    <h2>Shares</h2>
+    <h2>Beta</h2>
     <section class="card-storage">
       <article class="card card-1">
         <div class="profile-image">
-          <p>Views</p>
-          <p>O2</p>
+          <img src="svg/001-arrow.svg" class="share-icon">
+          <div class="views">
+            <h4 class="view-num">Views</h4>
+            <p class="number">O2</p>
+          </div>
         </div>
         <div class="bio">
-          <h3>Recipient's Name Here</h3>
-          <p>Monday 01/23/16 10:22am</p>
-          <a href="">blank link</a>
-          <h3>Playlist</h3>
-          <p>Name of Playlist</p>
-          <h3>Attachments</h3>
-          <p>04</p>
+          <h3>Jesus Wept</h3>
+          <p class="date">5.12d</p>
+          <div class="link">
+            <a href="https://www.mountainproject.com/v/106333601?search=1&type=route&method=resultsPage&query=jesus%20wept">www.mountainproject.com/v/106333601?search=1&type=route&method=resultsPage&query=jesus%20wept</a>
+          </div>
+          <h4>Sector</h4>
+          <p class="name">The Sanctuary</p>
+          <h4>Ascents</h4>
+          <p class="number">51</p>
         </div>
       </article>
       <article class="card card-2">
         <div class="profile-image">
-          <p>Views</p>
-          <p>O2</p>
+          <div class="views">
+            <h4>Views</h4>
+            <p class="number">O2</p>
+          </div>
         </div>
         <div class="bio">
-          <h3>Recipient's Name Here</h3>
-          <p>Monday 01/23/16 10:22am</p>
-          <a href="">blank link</a>
-          <h3>Playlist</h3>
-          <p>Name of Playlist</p>
-          <h3>Attachments</h3>
-          <p>04</p>
+          <h3>Snooker</h3>
+          <p class="date">5.13a</p>
+          <div class="link">
+            <a href="https://www.mountainproject.com/v/107055936?search=1&type=route&method=resultsPage&query=snooker">www.mountainproject.com/v/107055936?search=1&type=route&method=resultsPage&query=snooker</a>
+          </div>
+          <h4>Sector</h4>
+          <p class="name">GMC Wall</p>
+          <h4>Ascents</h4>
+          <p class="number">19</p>
         </div>
       </article>
       <article class="card card-3">
         <div class="profile-image">
-          <p>Views</p>
-          <p>O2</p>
+          <div class="views">
+            <h4>Views</h4>
+            <p class="number">O2</p>
+          </div>
         </div>
         <div class="bio">
-          <h3>Recipient's Name Here</h3>
-          <p>Monday 01/23/16 10:22am</p>
-          <a href="">blank link</a>
-          <h3>Playlist</h3>
-          <p>Name of Playlist</p>
-          <h3>Attachments</h3>
-          <p>04</p>
+          <h3>Black Gold</h3>
+          <p class="date">5.13c</p>
+          <div class="link">
+            <a href="https://www.mountainproject.com/v/106975129?search=1&type=route&method=resultsPage&query=black%20gold">www.mountainproject.com/v/106975129?search=1&type=route&method=resultsPage&query=black%20gold</a>
+          </div>
+          <h4>Sector</h4>
+          <p class="name">Gold Coast</p>
+          <h4>Ascents</h4>
+          <p class="number">02</p>
         </div>
       </article>
       <article class="card card-4">
         <div class="profile-image">
-          <p>Views</p>
-          <p>O2</p>
+          <div class="views">
+            <h4>Views</h4>
+            <p class="number">O2</p>
+          </div>
         </div>
         <div class="bio">
-          <h3>Recipient's Name Here</h3>
-          <p>Monday 01/23/16 10:22am</p>
-          <a href="">blank link</a>
-          <h3>Playlist</h3>
-          <p>Name of Playlist</p>
-          <h3>Attachments</h3>
-          <p>04</p>
+          <h3>Transworld Depravity</h3>
+          <p class="date">5.14a</p>
+          <div class="link">
+            <a href="https://www.mountainproject.com/v/107392101?search=1&type=route&method=resultsPage&query=transworld%20depravity">www.mountainproject.com/v/107392101?search=1&type=route&method=resultsPage&query=transworld%20depravity</a>
+          </div>
+          <h4>Sector</h4>
+          <p class="name">Madness Cave</p>
+          <h4>Ascents</h4>
+          <p class="number">04</p>
         </div>
       </article>
       <article class="card card-5">
         <div class="profile-image">
-          <p>Views</p>
-          <p>O2</p>
+          <div class="views">
+            <h4>Views</h4>
+            <p class="number">O2</p>
+          </div>
         </div>
         <div class="bio">
-          <h3>Recipient's Name Here</h3>
-          <p>Monday 01/23/16 10:22am</p>
-          <a href="">blank link</a>
-          <h3>Playlist</h3>
-          <p>Name of Playlist</p>
-          <h3>Attachments</h3>
-          <p>04</p>
+          <h3>Lucifer</h3>
+          <p class="date">5.14c</p>
+          <div class="link">
+            <a href="">blank link<br>Keeps going</a>
+          </div>
+          <h4>Playlist</h4>
+          <p class="name">Name of Playlist</p>
+          <h4>Ascents</h4>
+          <p class="number">04</p>
         </div>
       </article>
       <article class="card card-6">
         <div class="profile-image">
-          <p>Views</p>
-          <p>O2</p>
+          <div class="views">
+            <h4>Views</h4>
+            <p class="number">O2</p>
+          </div>
         </div>
         <div class="bio">
-          <h3>Recipient's Name Here</h3>
-          <p>Monday 01/23/16 10:22am</p>
-          <a href="">blank link</a>
-          <h3>Playlist</h3>
-          <p>Name of Playlist</p>
-          <h3>Attachments</h3>
-          <p>04</p>
+          <h3>Super Best Friends</h3>
+          <p class="date">5.12b</p>
+          <div class="link">
+            <a href="https://www.mountainproject.com/v/106852348?search=1&type=route&method=dropdown&query=super%20best">www.mountainproject.com/v/106852348?search=1&type=route&method=dropdown&query=super%20best</a>
+          </div>
+          <h4>Sector</h4>
+          <p class="name">The Solarium</p>
+          <h4>Ascents</h4>
+          <p class="number">122</p>
         </div>
       </article>
       <article class="card card-7">
         <div class="profile-image">
-          <p>Views</p>
-          <p>O2</p>
+          <div class="views">
+            <h4>Views</h4>
+            <p class="number">O2</p>
+          </div>
         </div>
         <div class="bio">
-          <h3>Recipient's Name Here</h3>
-          <p>Monday 01/23/16 10:22am</p>
-          <a href="">blank link</a>
-          <h3>Playlist</h3>
-          <p>Name of Playlist</p>
-          <h3>Attachments</h3>
-          <p>04</p>
+          <h3>Spank</h3>
+          <p class="date">5.13a</p>
+          <div class="link">
+            <a href="https://www.mountainproject.com/v/106615729?search=1&type=route&method=resultsPage&query=spank">www.mountainproject.com/v/106615729?search=1&type=route&method=resultsPage&query=spank</a>
+          </div>
+          <h4>Sector</h4>
+          <p class="name">Drive-By Crag</p>
+          <h4>Ascents</h4>
+          <p class="number">22</p>
         </div>
       </article>
       <article class="card card-8">
         <div class="profile-image">
-          <p>Views</p>
-          <p>O2</p>
+          <div class="views">
+            <h4>Views</h4>
+            <p class="number">O2</p>
+          </div>
         </div>
         <div class="bio">
-          <h3>Recipient's Name Here</h3>
-          <p>Monday 01/23/16 10:22am</p>
-          <a href="">blank link</a>
-          <h3>Playlist</h3>
-          <p>Name of Playlist</p>
-          <h3>Attachments</h3>
-          <p>04</p>
+          <h3>Banshee</h3>
+          <p class="date">5.11c</p>
+          <div class="link">
+            <a href="https://www.mountainproject.com/v/106333612">https://www.mountainproject.com/v/106333612</a>
+          </div>
+          <h4>Sector</h4>
+          <p class="name">The Solarium</p>
+          <h4>Ascents</h4>
+          <p class="number">193</p>
         </div>
       </article>
     </section>
