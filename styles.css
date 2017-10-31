@@ -32,31 +32,34 @@ h1 {
 
 h2 {
   font-size: 2.5em;
-  margin: 30px 20px;
+  margin: 30px 25px;
+  color: #199ACC;
 }
 
 h3 {
   font-size: 1.1em;
+  color: #161922;
 }
 
 h4 {
   font-size: 0.9em;
+  color: #161922;
 }
 
 header {
-  background-color: #000000;
+  background-color: #161922;
   color: white;
   height: 150px;
 }
 
 body {
-  background-color: lightgrey;
+  background-color: #D9DDE0;
 }
 
 .link {
   /*width: 280px;*/
   width: 84%;
-  background-color: lightgrey;
+  background-color: #D9DDE0;
   margin: 20px 0px;
   font-size: 0.75em;
   padding: 10px 10px 15px 10px;
@@ -89,19 +92,17 @@ li {
 }
 
 .card {
-  width: 24%;
+  width: 23%;
   height: 450px;
   min-width: 300px;
   display: inline-block;
-  margin-bottom: 20px;
   background-color: white;
+  margin: 0px 10px 20px 10px;
 }
 
 .card-storage {
   display: flex;
   flex-wrap: wrap;
-/*  align-items: left;*/
-  justify-content: space-between;
   padding: 20px;
 }
 
@@ -127,22 +128,25 @@ li {
   top: -3px;
 }
 
-/*.view-num,
-.number {
-  position: relative;
-  top: 15px;
-  right: 15px;
-}*/
-
 .views {
-  text-align: right;
+/*  text-align: right;*/
   padding: 15px;
   color: white;
+  display: inline;
 }
 
 .nav-icons {
   height: 15px;
   margin-right: 10px;
+}
+
+.view-num,
+.views .number {
+  position: relative;
+  bottom: 45px;
+  text-align: right;
+  padding-right: 15px;
+  color: white;
 }
 
 .logo-img {
@@ -151,10 +155,9 @@ li {
 
 .share-icon {
   height: 50px;
-/*  position: relative;
-  top: 15px;
-  right: -15px;*/
   display: inline;
+  position: relative;
+  top: 10px;
 }
 
 .card-1 .profile-image {
@@ -166,7 +169,6 @@ li {
 .card-2 .profile-image {
   background-image: url('http://vikkiweldon.com/wp-content/uploads/2013/05/Best-of-RRG-2013-11.jpg');
   background-size: cover;
-/*  background-position: 0px -50px;*/
 }
 
 .card-3 .profile-image {
@@ -200,4 +202,100 @@ li {
   background-image: url('http://i0.wp.com/www.thegnarwall.com/wp-content/uploads/2015/11/DSC_05311.jpg?fit=2000%2C1335');
   background-size: cover;
   background-position: 0px -50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .card-storage {
+    justify-content: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  header {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .log-in {
+    position: static;
+    padding-top: 10px;
+  }
+
+  .logo {
+    position: static;
+  }
+
+  h1 {
+    position: static;
+    margin-right: 20px;
+  }
+
+  .logo-img {
+    position: static;
+    vertical-align: text-bottom;
+    height: 60px;
+  }
+
+  li {
+    margin-right: 9%;
+  }
+
+  ul {
+    height: 0px;
+  }
+
+  .arrow {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  ul {
+    text-align: center;
+    padding: 0px;
+  }
+
+  li {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+
+  header {
+    height: 250px;
+    padding: 20px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .logo-img {
+    display: none;
+  }
+
+  .logo h1 {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .logo h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 233px) {
+  #profile-icon {
+    display: none;
+  }
+   .logo h1 {
+    font-size: 2em;
+   }
 }
