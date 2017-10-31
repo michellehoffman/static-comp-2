@@ -181,6 +181,7 @@ li {
 .card-4 .profile-image {
   background-image: url('http://rrgcc.org/assets/2017/06/Transworld_Depravity-Photographer_Andy_Wickstrom.jpg');
   background-size: cover;
+  background-position: 0px -40px;
 }
 
 .card-5 .profile-image {
@@ -196,7 +197,7 @@ li {
 .card-7 .profile-image {
   background-image: url('https://static1.squarespace.com/static/553416bde4b0a9c1b1eb606c/t/57533c77d210b8643f8b8840/1465072762613/Spank%21%21%21.jpg?format=500w');
   background-size: cover;
-  background-position: 0px -40px;
+  background-position: 0px -47px;
 }
 
 .card-8 .profile-image {
