@@ -1,30 +1,203 @@
 * {
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 4em;
+  position: absolute;
+  top: 48px;
+  right: 85px;
+  display: inline-block;
+}
+
+.logo-img {
+  position: absolute;
+  top: 73px;
+  right: 25px;
+  display: inline-block;
+}
+
+.log-in {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  display: inline;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 30px 20px;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h4 {
+  font-size: 0.9em;
 }
 
 header {
   background-color: #000000;
   color: white;
+  height: 150px;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.link {
+  /*width: 280px;*/
+  width: 84%;
+  background-color: lightgrey;
+  margin: 20px 0px;
+  font-size: 0.75em;
+  padding: 10px 10px 15px 10px;
+  word-wrap: break-word;
+  height: 35px;
+  overflow: scroll;
+ }
+
+.name {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.number {
+  font-size: 1.9em;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10%;
+  font-size: 1.3em;
+  opacity: 0.8;
+  position: relative;
+  top: 85px;
+}
+
+.bio {
+  margin: 15px;
+  width: 100%;
 }
 
 .card {
-  width: 22%;
+  width: 24%;
   height: 450px;
-  min-width: 330px;
+  min-width: 300px;
   display: inline-block;
-  border: 2px solid black;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 .card-storage {
   display: flex;
   flex-wrap: wrap;
-  align-items: left;
+/*  align-items: left;*/
   justify-content: space-between;
   padding: 20px;
+}
+
+.date {
+  font-size: 0.85em;
 }
 
 .profile-image {
   height: 33.33%;
   background-color: grey;
+}
+
+#profile-icon {
+  height: 20px;
+  margin-right: 0px;
+}
+
+.log-in p {
+  color: #199ACC;
+  display: inline-block;
+  margin: 0px 10px;
+  position: relative;
+  top: -3px;
+}
+
+/*.view-num,
+.number {
+  position: relative;
+  top: 15px;
+  right: 15px;
+}*/
+
+.views {
+  text-align: right;
+  padding: 15px;
+  color: white;
+}
+
+.nav-icons {
+  height: 15px;
+  margin-right: 10px;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.share-icon {
+  height: 50px;
+/*  position: relative;
+  top: 15px;
+  right: -15px;*/
+  display: inline;
+}
+
+.card-1 .profile-image {
+  background-image: url('http://ky4kyzone.u9gnvwoefx.netdna-cdn.com/wp-content/uploads/2016/07/RRG-Muir-Valley-Jesus-Wept.jpg');
+  background-size: cover;
+  background-position: 0px -50px;
+}
+
+.card-2 .profile-image {
+  background-image: url('http://vikkiweldon.com/wp-content/uploads/2013/05/Best-of-RRG-2013-11.jpg');
+  background-size: cover;
+/*  background-position: 0px -50px;*/
+}
+
+.card-3 .profile-image {
+  background-image: url('https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/12243264_2702699446446_2759221995362242875_n.jpg?oh=11ec5bd3c9994bd0861a27f05224df1d&oe=5A751291');
+  background-size: cover;
+  background-position: 0px -60px;
+}
+
+.card-4 .profile-image {
+  background-image: url('http://rrgcc.org/assets/2017/06/Transworld_Depravity-Photographer_Andy_Wickstrom.jpg');
+  background-size: cover;
+}
+
+.card-5 .profile-image {
+  background-image: url('http://rockandice.com/wp-content/uploads/2017/09/MKiersch-Lucifer.jpg');
+  background-size: cover;
+}
+
+.card-6 .profile-image {
+  background-image: url('http://www.rannveigaamodt.com/wp-content/uploads/2014/02/894487_660189847345327_196893742_o.jpg');
+  background-size: cover;
+}
+
+.card-7 .profile-image {
+  background-image: url('https://static1.squarespace.com/static/553416bde4b0a9c1b1eb606c/t/57533c77d210b8643f8b8840/1465072762613/Spank%21%21%21.jpg?format=500w');
+  background-size: cover;
+  background-position: 0px -40px;
+}
+
+.card-8 .profile-image {
+  background-image: url('http://i0.wp.com/www.thegnarwall.com/wp-content/uploads/2015/11/DSC_05311.jpg?fit=2000%2C1335');
+  background-size: cover;
+  background-position: 0px -50px;
 }
